@@ -167,7 +167,7 @@ mount_all() {
     fi;
   done;
   if is_mounted /system_root; then
-    mount_apex;
+    #mount_apex;
     mount -o bind /system_root$system /system && echo "/system (bind)" >&2;
   fi;
   echo " " >&2;
@@ -179,7 +179,7 @@ umount_all() {
     umount /system;
     umount -l /system;
   fi) 2>/dev/null;
-  umount_apex;
+  #umount_apex;
   (if [ ! -d /postinstall/tmp ]; then
     umount /system_root;
     umount -l /system_root;
