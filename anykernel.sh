@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=PutCoolNamesHereKernel by @zainarbani
+kernel.string=OverHeatKernel by @zainarbani
 do.devicecheck=1
 do.modules=0
 do.systemless=1
