@@ -393,6 +393,9 @@ flash_boot() {
       1) export PATCHVBMETAFLAG=true;;
       *) export PATCHVBMETAFLAG=false;;
     esac;
+    if [ -f $AKHOME/dtbnew ]; then
+        cp -f $AKHOME/dtbnew dtb;
+    fi;
     magiskboot repack $nocompflag $BOOTIMG $AKHOME/boot-new.img;
   fi;
   if [ $? != 0 ]; then
