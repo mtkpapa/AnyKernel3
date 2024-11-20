@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=OverHeatKernel by @zainarbani
+kernel.string=Amogus 4.19
 do.devicecheck=1
 do.modules=0
 do.systemless=1
