@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Amogus 4.19
+kernel.string=Choynik Amogusson Kernel by @zainarbani & @huanan1
 do.devicecheck=1
 do.modules=0
 do.systemless=1
