@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=UMPASS KERNEL
+kernel.string=IlyafeKernel by @huanan1
 do.devicecheck=1
 do.cleanup=1
 do.cleanuponabort=1
